@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+#app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+background-image: url('/morning3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+  padding: 10px;
+  font-family:"roboto";
+  
+  
+  
+}
+#search{
+  background: transparent;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(60px) saturate(50%);
+  height: fit-content;
+  width: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+#search  input{
+  background: transparent; 
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+}
+#icon{
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+#card{
+  margin-top: 100px;
+  height: fit-content;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+
+}
+#upperCard{
+  
+  padding: 50px;
+  width: 500px;
+  height: 300px;
+  /* padding: 50px; */
+  color: rgb(225, 218, 218);
+  background: transparent;
+  backdrop-filter: blur(50px) saturate(70%);
+
+  
+  
+  
+}
+#searchIcon{
+  cursor: pointer;
+}
+#temp{
+  font-size: 5rem;
+}
+#minmax{
+  margin-top: 50px;
+}
+
+#icon{
+  font-size: 8em;
+}
+#minmax{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#lowerCard{
+  display: flex;
+  width: 500px;
+  padding: 5px;
+  justify-content: space-evenly;
+  background: transparent;
+  backdrop-filter: blur(0px) saturate(100%);
+  color: rgb(58, 58, 58);
+  
+}
+#subInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
