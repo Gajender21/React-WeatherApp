@@ -1,3 +1,6 @@
+
+![Weather](https://github.com/Gajender21/React-WeatherApp/assets/62336247/77f2d623-5c65-44b8-9193-7a0e0490ac1c)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
